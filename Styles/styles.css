@@ -11,7 +11,7 @@ header h1 {
     color: #333;
 }
 
-
+/*nav bar*/
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -37,6 +37,7 @@ main {
     padding: 2rem 1.5rem;
     max-width: 1200px;
     line-height: 1.6;
+    overflow: hidden;
 }
 
 section {
@@ -63,9 +64,26 @@ img {
 
 .image-main {
     float: right;
-    margin: 0 0 1rem 2rem;
+    margin: 1rem 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Figure and Figcaption */
+figure {
+    margin: 2rem auto; 
+    text-align: center; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+figcaption {
+    font-size: 1rem; 
+    color: #555; 
+    margin-top: 0.8rem; 
+    font-style: italic; 
+}
+
 
 /* Footer */
 footer {
