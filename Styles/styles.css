@@ -1,35 +1,37 @@
-/* Headers */
-header {
+html {
+    scroll-behavior: smooth;
+}
+
+/*Nav bar*/
+nav {
+    padding: 1rem;
+    position: sticky;
     background-color: #f8f9fa;
-    padding: 1rem 2rem;
-
 }
 
-header h1 {
-    margin: 0;
-    font-size: 1.8rem;
-    color: #333;
-}
-
-/*nav bar*/
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
     margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: flex-end;
     gap: 1rem;
 }
 
 nav a {
     text-decoration: none;
-    color: #007bff;
-    font-weight: 700;
-    transition: color 0.3s;
+    color: #555;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 nav a:hover {
-    color: #0056b3;
+    background-color: #007bff;
+    color: #fff;
 }
+
 
 /* Main content */
 main {
@@ -44,6 +46,12 @@ section {
     margin-bottom: 3rem;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+    
 h2 {
     color: #444;
     margin-top: 0;
