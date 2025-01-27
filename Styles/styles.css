@@ -2,11 +2,28 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* If you want to use the specific class you defined */
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.poppins-regular-italic {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
 /*Nav bar*/
 nav {
     padding: 1rem;
     position: sticky;
     background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
 }
 
 nav ul {
@@ -40,10 +57,17 @@ main {
     max-width: 1200px;
     line-height: 1.6;
     overflow: hidden;
-}
+} 
 
 section {
     margin-bottom: 3rem;
+}
+
+.Main-head {
+    text-align: center;
+    font-size: 2rem; 
+    margin-top: 2rem; 
+    color: #333; 
 }
 
 header h1 {
