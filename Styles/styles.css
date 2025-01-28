@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 /*Nav bar*/
@@ -62,7 +62,7 @@ section {
 header h1 {
     margin: 0;
     font-size: 1.8rem;
-    color: #333;
+    color: #007bff;
 }
     
 h2 {
