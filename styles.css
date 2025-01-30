@@ -124,6 +124,7 @@ footer {
         float: none;
         width: 100%;
         margin-bottom: 2ch;
+        justify-content: center;
     }
     .Main-head {
         font-size: 1.5rem;
