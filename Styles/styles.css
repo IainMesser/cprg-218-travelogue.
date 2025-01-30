@@ -38,7 +38,6 @@ nav a:hover {
     color: #fff;
 }
 
-
 /* Main content */
 main {
     margin: 0 auto;
@@ -105,7 +104,6 @@ figcaption {
     font-style: italic; 
 }
 
-
 /* Footer */
 footer {
     background-color: #f8f9fa;
@@ -126,5 +124,16 @@ footer {
         float: none;
         width: 100%;
         margin-bottom: 2ch;
+    }
+    .Main-head {
+        font-size: 1.5rem;
+    }
+}
+@media all and (max-width: 500px) {
+    header h1 {
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
     }
 }
