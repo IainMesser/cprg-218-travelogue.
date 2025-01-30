@@ -115,7 +115,7 @@ footer {
 }
 
 /*Responsive design*/
-@media all and (max-width: 665px) {
+@media all and (max-width: 660px) {
     body {
         margin: 0;
     }
