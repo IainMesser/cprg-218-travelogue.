@@ -133,9 +133,12 @@ footer {
 }
 
 @media all and (max-width: 500px) {
+    .Main-head {
+        font-size: 1rem;
+    }
     header h1 {
         text-align: center;
-        size: 1.3rem;
+        size: 2rem;
     }
     nav ul {
         justify-content: center;
