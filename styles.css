@@ -136,10 +136,11 @@ footer {
     .Main-head {
         font-size: 1.2rem;
     }
+
     header h1 {
         text-align: center;
-        size: 2rem;
     }
+
     nav ul {
         justify-content: center;
     }
